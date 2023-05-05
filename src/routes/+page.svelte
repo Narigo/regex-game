@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import Game from './Game.svelte';
+</script>
+
+<Game />
+
+<style>
+	:global(html, body) {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+</style>
